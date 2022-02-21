@@ -1,2 +1,14 @@
 
-week1
+
+1. node설치
+
+2. npm설치 (혹은 yarn)
+
+3. 시작하고싶은 프로젝트에서 다음 명령어 실행
+    $ npx create-react-app begin-react
+
+4. 폴더이동후 실행
+    $ cd begin-react
+    $ yarn start
+
+
