@@ -8,7 +8,9 @@ function Counter() {
   }
 
   const onDecrease = () => {
-    setNumber(prevNumber => prevNumber - 1);
+    if(number > 0){
+      setNumber(prevNumber => prevNumber - 1);
+    }
   }
 
   return (
