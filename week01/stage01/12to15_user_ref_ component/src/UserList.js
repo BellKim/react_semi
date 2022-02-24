@@ -5,8 +5,8 @@ function User({user, onRemove, onToggle}){
         <div>
             <b
              style={{
-                 cusor: 'pointer',
-                 color: user.active ? 'green' : 'black'
+                 cursor: 'pointer',
+                 color: user.active ? 'green' : 'black' 
              }}
              onClick={() => onToggle(user.id)}
             >
