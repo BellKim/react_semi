@@ -1,12 +1,12 @@
 import React from 'react';
-import InputSample1 from './InputSample01';
-import InputSample2 from './InputSample02';
+import InputSample1 from './InputSample01_09';
+
 
 function App() {
   return (
     <>
       <InputSample1 />
-      <InputSample2 />
+      
     </>
   );
 }
